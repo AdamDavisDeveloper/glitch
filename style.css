@@ -11,16 +11,35 @@
     format("opentype");
 }
 
+/* root */
+
 * {
   margin: 0;
   border: 0;
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'HK Grotesk';
+}
+
 /* top lvl styles */
+
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 50vh;
+}
+
+#TopInfo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   flex-direction: column;
+}
+
+#TopInfo h1 {
+  margin-bottom: 1.5rem
 }
