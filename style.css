@@ -17,7 +17,7 @@
   --sepia: #F4ECC9;
   --soft-black: #353535;
   --soft-black-lighter: #4F4E4B;
-  --orange: #F1B064;
+  --orange: #DB9B4F;
 }
 
 * {
@@ -40,7 +40,7 @@ body {
 
 /* global classes */
 .sm-section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .site-btn {
@@ -72,7 +72,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
+  min-height: 90vh;
 }
 
 header p {
