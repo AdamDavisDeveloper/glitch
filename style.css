@@ -20,7 +20,7 @@
 }
 
 html {
-  font-family: "HK Grotesk", san;
+  font-family: "HK Grotesk", sans-serif;
 }
 
 body {
@@ -28,16 +28,24 @@ body {
 /*   background: #FFF0D2; */
 }
 
-/* top lvl styles */
+/* -------- main lvl styles -------- */
 
-button {
-  border: none;
-  width: 100%;
-  padding: .5rem 0;
-}
-
+/* global classes */
 .sm-section {
   margin-bottom: 1.5rem;
+}
+
+.site-btn {
+  width: 100%;
+  margin-bottom: .5rem;
+  border-radius: 10px;
+  background: 2B2A33;
+}
+
+/* tags, ids, and specifics */
+button {
+  border: none;
+  padding: .5rem 0;
 }
 
 main {
