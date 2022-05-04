@@ -20,17 +20,21 @@
 }
 
 html {
-  font-family: 'HK Grotesk';
+  font-family: "HK Grotesk";
 }
 
 /* top lvl styles */
 
+.sm-section {
+  margin-bottom: 1.5rem;
+}
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 50vh;
+  padding: 0 6rem;
 }
 
 #TopInfo {
@@ -40,6 +44,3 @@ main {
   flex-direction: column;
 }
 
-#TopInfo h1 {
-  margin-bottom: 1.5rem
-}
