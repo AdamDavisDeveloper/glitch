@@ -13,6 +13,11 @@
 
 /* root */
 
+:root {
+  --sepia: #FFF0D2;
+  --soft-black: #2B2A33;
+}
+
 * {
   margin: 0;
   border: 0;
@@ -21,11 +26,12 @@
 
 html {
   font-family: "HK Grotesk", sans-serif;
+/*   color: var(--soft-black); */
 }
 
 body {
   min-height: 100vh;
-/*   background: #FFF0D2; */
+/*   background: var(--sepia); */
 }
 
 /* -------- main lvl styles -------- */
@@ -39,21 +45,26 @@ body {
   width: 100%;
   margin-bottom: .5rem;
   border-radius: 10px;
-  background: 2B2A33;
+  background: var(--soft-black);
 }
 
 /* tags, ids, and specifics */
 button {
   border: none;
   padding: .5rem 0;
+/*   color: var(--sepia); */
 }
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
-  padding: 0 6rem;
+  min-height: 60vh;
+  padding: 0 15%;
+}
+
+header p {
+  text-align: right;
 }
 
 #TopInfo {
