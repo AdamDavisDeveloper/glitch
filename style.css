@@ -60,7 +60,6 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 60vh;
-  padding: 0 15%;
 }
 
 header p {
@@ -72,6 +71,9 @@ header p {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  padding: 1.5rem;
+  border: 2px solid gray;
+  border-radius: 10px;
 }
 
 #SitesList {
