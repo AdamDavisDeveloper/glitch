@@ -14,9 +14,10 @@
 /* root */
 
 :root {
-  --sepia: #FFF0D2;
-  --soft-black: #2B2A33;
-  --soft-black-lighter: #585669;
+  --sepia: #F4ECC9;
+  --soft-black: #353535;
+  --soft-black-lighter: #4F4E4B;
+  --orange: #F1B064;
 }
 
 * {
@@ -27,12 +28,12 @@
 
 html {
   font-family: "HK Grotesk", sans-serif;
-/*   color: var(--soft-black); */
+  color: var(--soft-black);
 }
 
 body {
   min-height: 100vh;
-/*   background: var(--sepia); */
+  background: var(--sepia);
 }
 
 /* -------- main lvl styles -------- */
@@ -50,23 +51,28 @@ body {
 }
 
 /* tags, ids, and specifics */
+a {
+  color: var(--orange);
+}
+
 button {
   border: none;
   padding: .5rem 0;
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-/*   color: var(--sepia); */
+  color: var(--sepia);
 }
 
 .site-btn:hover {
   background: var(--soft-black-lighter);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
 }
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
+  min-height: 70vh;
 }
 
 header p {
