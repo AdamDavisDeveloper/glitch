@@ -16,6 +16,7 @@
 :root {
   --sepia: #FFF0D2;
   --soft-black: #2B2A33;
+  --soft-black-lighter: #585669;
 }
 
 * {
@@ -52,7 +53,13 @@ body {
 button {
   border: none;
   padding: .5rem 0;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 /*   color: var(--sepia); */
+}
+
+.site-btn:hover {
+  background: var(--soft-black-lighter);
 }
 
 main {
